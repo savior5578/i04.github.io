@@ -1,0 +1,43 @@
+* {
+  border-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .top-main h1 {
+    font-size: 32px;
+  }
+  .heading h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .facebook {
+    margin-bottom: 10px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .top-main {
+    text-align: left;
+  }
+  .top-main h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
