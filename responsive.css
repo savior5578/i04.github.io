@@ -4,8 +4,9 @@
 
 @media (max-width: 1000px) {
   .lesson {
-    width: 100%;
+    width: 50%;
     margin-bottom: 50px;
+    margin: 0 auto;
   }
   .top-main h1 {
     font-size: 32px;
