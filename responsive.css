@@ -6,7 +6,7 @@
   .lesson {
     width: 50%;
     margin-bottom: 50px;
-    text-align: center;
+    margin: 0 auto;
   }
   .top-main h1 {
     font-size: 32px;
