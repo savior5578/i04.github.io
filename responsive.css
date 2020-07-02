@@ -33,6 +33,9 @@
     font-size: 25px;
     padding: 21px 0;
   }
+  .button-main p {
+    display: none;
+  }
   .lesson {
     width: 100%;
   }
