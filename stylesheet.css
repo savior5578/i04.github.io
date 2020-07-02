@@ -226,14 +226,8 @@ a {
   box-shadow: none;
 }
 
-.footer-logo{
-  width: 60px;
-}
-
-
 .footer-list{
     float: right;
-    padding-top: 5px;
     padding-right: 35px;
     font-size: 20px;
 }
@@ -257,5 +251,5 @@ footer{
 
 .cr{
   color: #b3aeb5;
-  font-size: 16px;
+  font-size: 20px;
 }
