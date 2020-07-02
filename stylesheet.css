@@ -1,3 +1,66 @@
+body {
+  font-family: "Brush Script MT";
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #b5b7b8;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.header-left {
+  float: left;
+}
+.header-right1 {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.header-right1:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right1 a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.header-right2 {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  font-size: 18;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.header-right2:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right2 a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.header-right3 {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.header-right3:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right3 a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
 .container{
   max-width:1170px;
   width: 100%;
@@ -161,4 +224,38 @@ a {
   position: relative;
   top: 7px;
   box-shadow: none;
+}
+
+.footer-logo{
+    float: left;
+    width: 100px;
+}
+
+
+.footer-list{
+    float: right;
+    padding-top: 40px;
+    padding-right: 35px;
+    font-size: 20px;
+}
+
+.footer-list a{
+    float: left;
+    text-decoration: none;
+    padding: 10px;    
+
+}
+
+#border{
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+footer{
+    background-color: #F8F0C6;
+    height: 200px;
+}
+
+.cr{
+   padding: 170px 60px ; 
 }
