@@ -227,21 +227,20 @@ a {
 }
 
 .footer-list{
-    float: right;
-    padding-right: 35px;
-    font-size: 20px;
+  float: right;
+  padding-right: 35px;
+  font-size: 20px;
 }
 
 .footer-list a{
-    float: left;
-    text-decoration: none;
-    padding: 10px;    
-
+  float: left;
+  text-decoration: none;
+  padding-right: 10px;    
 }
 
 #border{
-    border-right: 1px solid #000000;
-    border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
 }
 
 footer{
