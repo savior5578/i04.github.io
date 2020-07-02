@@ -19,50 +19,30 @@ header {
 .menu-icon {
   display: none;
 }
-.header-right1 {
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-right {
   float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
+  margin-right: -25px;
 }
-.header-right1:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.header-right1 a {
+
+.header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
   display: block;
-}
-.header-right2 {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
-  font-size: 18;
-  margin-left: 2px;
-  margin-right: 2px;
-}
-.header-right2:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.header-right2 a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-}
-.header-right3 {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
+  float: left;
   transition: all 0.5s;
 }
-.header-right3:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.header-right3 a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .container{
   max-width:1170px;
@@ -132,7 +112,7 @@ header {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Lucida Grande";
 }
 
