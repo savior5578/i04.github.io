@@ -17,7 +17,13 @@
 }
 
 @media (max-width: 670px) {
-  .header-right {
+  .header-right1 {
+    display: none;
+  }
+  .header-right2 {
+    display: none;
+  }
+  .header-right3 {
     display: none;
   }
   .menu-icon {
