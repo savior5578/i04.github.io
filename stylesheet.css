@@ -227,14 +227,15 @@ a {
 }
 
 .footer-logo{
-    float: left;
-    width: 125px;
+  float: left;
+  width: 125px;
+  position: absolute;
 }
 
 
 .footer-list{
     float: right;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-right: 35px;
     font-size: 16px;
 }
