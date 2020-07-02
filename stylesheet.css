@@ -235,7 +235,7 @@ a {
 
 .footer-list{
   float: right;
-  padding-right: 35px;
+  padding-right: 25px;
   font-size: 12px;
 }
 
@@ -254,5 +254,4 @@ footer{
 .cr{
   color: #b3aeb5;
   font-size: 12px;
-  padding-left: 20px;
 }
