@@ -20,14 +20,18 @@
   .lesson {
     width: 100%;
   }
+  .button {
+    width: 100%;
+  }
   .btn {
     width: 100%;
   }
-  .facebook {
+  .instagram {
     margin-bottom: 10px;
   }
   .footer {
     text-align: center;
+    font-size: 10px
   }
   .top-main {
     text-align: left;
