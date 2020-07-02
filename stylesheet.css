@@ -228,7 +228,8 @@ a {
 
 .footer-logo{
     float: left;
-    width: 50px;
+    width: 124px;
+    margin-top: 20px;
 }
 
 
@@ -253,7 +254,7 @@ a {
 
 footer{
     background-color: #F8F0C6;
-    height: 200px;
+    height: 100px;
 }
 
 .cr{
