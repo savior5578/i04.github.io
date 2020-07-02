@@ -239,11 +239,6 @@ a {
   padding-left: 10px;
 }
 
-#border{
-  border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
-}
-
 footer{
   border-top: 1px solid #eee;
   padding-top: 10px;
