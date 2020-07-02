@@ -18,6 +18,10 @@ header {
 }
 .menu-icon {
   display: none;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
 }
 header {
   height: 65px;
@@ -37,7 +41,7 @@ header {
   padding: 0 25px;
   color: white;
   display: block;
-  float: left;
+  float: right;
   transition: all 0.5s;
 }
 
