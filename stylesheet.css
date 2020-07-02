@@ -228,7 +228,7 @@ a {
 
 .footer-logo{
     float: left;
-    width: 100px;
+    width: 50px;
 }
 
 
@@ -257,5 +257,5 @@ footer{
 }
 
 .cr{
-   padding: 170px 0 60px 60px ; 
+   padding: 50px 0 0 60px ; 
 }
