@@ -229,13 +229,14 @@ a {
 .footer-list{
   float: right;
   padding-right: 35px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .footer-list a{
   float: left;
   text-decoration: none;
-  padding-right: 10px;    
+  padding-right: 10px; 
+  padding-left: 10px;
 }
 
 #border{
@@ -250,5 +251,5 @@ footer{
 
 .cr{
   color: #b3aeb5;
-  font-size: 20px;
+  font-size: 16px;
 }
