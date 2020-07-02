@@ -241,11 +241,12 @@ a {
 
 footer{
   border-top: 1px solid #eee;
-  padding-top: 10px;
+  padding-top: 7px;
 }
 
 .cr{
   color: #b3aeb5;
   font-size: 16px;
-  padding-left: 20px
+  padding-left: 20px;
+  padding-top: 5px;
 }
