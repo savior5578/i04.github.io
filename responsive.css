@@ -17,11 +17,8 @@
 }
 
 @media (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-  .menu-icon {
-    display: block;
+  .header-right a {
+    font-size: 8px;
   }
   .button-main p {
     display: none;
