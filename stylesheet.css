@@ -16,28 +16,50 @@ header {
 .header-left {
   float: left;
 }
-.header-right {
+.header-right1 {
   float: right;
-  margin-right: -25px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
 }
-
-.header-right a {
+.header-right1:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right1 a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
   display: block;
-  float: left;
+}
+.header-right2 {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  font-size: 18;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.header-right2:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right2 a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.header-right3 {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
   transition: all 0.5s;
 }
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+.header-right3:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
-.menu-icon {
-  display: none;
+.header-right3 a {
+  line-height: 65px;
+  padding: 0 25px;
   color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
+  display: block;
 }
 .container{
   max-width:1170px;
