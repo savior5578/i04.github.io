@@ -16,6 +16,13 @@ header {
 .header-left {
   float: left;
 }
+.menu-icon {
+  display: none;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+}
 .header-right1 {
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
