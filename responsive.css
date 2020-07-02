@@ -35,9 +35,9 @@
   .instagram {
     margin-bottom: 10px;
   }
-  .footer {
+  footer {
     text-align: center;
-    font-size: 6px
+    font-size: 8px
   }
   .top-main {
     text-align: left;
@@ -49,5 +49,11 @@
   .top-main p {
     font-size: 14px;
     line-height: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  footer {
+    font-size: 4px;
   }
 }
