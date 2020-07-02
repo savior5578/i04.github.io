@@ -2,7 +2,7 @@ body {
   font-family: "Brush Script MT";
 }
 header {
-  height: 55px;
+  height: 65px;
   width: 100%;
   background-color: #b5b7b8;
   position: fixed;
@@ -229,7 +229,7 @@ a {
 .footer-list{
   float: right;
   padding-right: 35px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .footer-list a{
@@ -241,12 +241,12 @@ a {
 
 footer{
   border-top: 1px solid #eee;
-  padding-top: 7px;
+  padding: 7px 0;
 }
 
 .cr{
   color: #b3aeb5;
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 20px;
   padding-top: 5px;
 }
