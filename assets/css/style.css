@@ -514,42 +514,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
-  margin-bottom: 20px;
-  text-align: center;
-}
 
-.services .icon {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.services .icon i {
-  color: #70b9b0;
-  font-size: 42px;
-}
-
-.services .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-.services .title a {
-  color: #343a40;
-  transition: 0.3s;
-}
-
-.services .icon-box:hover .title a {
-  color: #70b9b0;
-}
-
-.services .description {
-  line-height: 24px;
-  font-size: 14px;
-}
 
 /*--------------------------------------------------------------
 # Call To Action
@@ -683,195 +648,16 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-details-container {
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-carousel {
-  position: relative;
-  z-index: 1;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 5px;
-  text-align: left;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 10px 0 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #70b9b0 !important;
-}
-
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  position: absolute;
-  right: 0;
-  bottom: -70px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  z-index: 2;
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 50px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  width: 50%;
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0 0 0 0;
-}
-
-@media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
-    width: 100%;
-  }
-  .portfolio-details .portfolio-info {
-    position: static;
-    margin-top: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq {
-  padding: 60px 0;
-}
 
-.faq .faq-list {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li {
-  padding: 0 0 20px 25px;
-}
-
-.faq .faq-list a {
-  display: block;
-  position: relative;
-  font-family: #70b9b0;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.faq .faq-list i {
-  font-size: 18px;
-  position: absolute;
-  left: -25px;
-  top: 6px;
-}
-
-.faq .faq-list p {
-  margin-bottom: 20px;
-  font-size: 15px;
-}
-
-.faq .faq-list a.collapse {
-  color: #70b9b0;
-}
-
-.faq .faq-list a.collapsed {
-  color: #343a40;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: #70b9b0;
-}
-
-.faq .faq-list a.collapsed i::before {
-  content: "\eab2" !important;
-}
 
 /*--------------------------------------------------------------
 # Our Team
 --------------------------------------------------------------*/
-.team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  padding: 30px 20px;
-  background: #fff;
-}
 
-.team .member img {
-  max-width: 60%;
-  border-radius: 50%;
-  margin: 0 0 30px 0;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-.team .member p {
-  padding-top: 10px;
-  font-size: 14px;
-  font-style: italic;
-  color: #aaaaaa;
-}
-
-.team .member .social {
-  margin-top: 15px;
-}
-
-.team .member .social a {
-  color: #92cac3;
-  transition: 0.3s;
-}
-
-.team .member .social a:hover {
-  color: #3c8b81;
-}
-
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
 
 /*--------------------------------------------------------------
 # Contact Us
@@ -947,7 +733,7 @@ section {
   display: none;
   color: #fff;
   background: #ed3c0d;
-  text-align: left;
+  text-align: center;
   padding: 15px;
   font-weight: 600;
 }
@@ -1024,15 +810,6 @@ section {
 /*--------------------------------------------------------------
 # Map
 --------------------------------------------------------------*/
-.map {
-  padding: 0;
-  margin-bottom: -10px;
-}
-
-.map iframe {
-  width: 100%;
-  height: 380px;
-}
 
 /*--------------------------------------------------------------
 # Footer
