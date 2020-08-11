@@ -1,13 +1,3 @@
-/**
-* Template Name: Amoeba - v2.2.0
-* Template URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #777;
@@ -26,9 +16,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Lato", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   display: none;
@@ -56,9 +43,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: background 0.2s ease-in-out;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
 #header {
   height: 80px;
   transition: all 0.5s;
@@ -105,10 +90,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-top: 80px;
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
+
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -173,28 +155,28 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #70b9b0;
 }
 
-.nav-menu .drop-down > a:after {
+.nav-menu > a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 5px;
 }
 
-.nav-menu .drop-down .drop-down ul {
+.nav-menu ul {
   top: 0;
   left: calc(100% - 30px);
 }
 
-.nav-menu .drop-down .drop-down:hover > ul {
+.nav-menu:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
 }
 
-.nav-menu .drop-down .drop-down > a {
+.nav-menu > a {
   padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down > a:after {
+.nav-menu > a:after {
   content: "\eaa0";
   font-family: IcoFont;
   position: absolute;
@@ -202,18 +184,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 @media (max-width: 1366px) {
-  .nav-menu .drop-down .drop-down ul {
+  .nav-menu ul {
     left: -90%;
   }
-  .nav-menu .drop-down .drop-down:hover > ul {
+  .nav-menu:hover > ul {
     left: -100%;
   }
-  .nav-menu .drop-down .drop-down > a:after {
+  .nav-menu > a:after {
     content: "\ea9d";
   }
 }
 
-/* Mobile Navigation */
 .mobile-nav {
   position: fixed;
   top: 0;
@@ -246,7 +227,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
+.mobile-nav > a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
@@ -254,20 +235,20 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
 }
 
-.mobile-nav .active.drop-down > a:after {
+.mobile-nav > a:after {
   content: "\eaa0";
 }
 
-.mobile-nav .drop-down > a {
+.mobile-nav > a {
   padding-right: 35px;
 }
 
-.mobile-nav .drop-down ul {
+.mobile-nav ul {
   display: none;
   overflow: hidden;
 }
 
-.mobile-nav .drop-down li {
+.mobile-nav li {
   padding-left: 20px;
 }
 
@@ -314,9 +295,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 75vh;
@@ -430,9 +408,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
   background-color: #f6fafa;
@@ -484,9 +459,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# About Us
---------------------------------------------------------------*/
 .about h3 {
   font-weight: 400;
   font-size: 26px;
@@ -511,14 +483,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Call To Action
---------------------------------------------------------------*/
 .call-to-action {
   background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url("../img/call-to-action-bg.jpg") fixed center center;
   background-size: cover;
@@ -554,9 +518,6 @@ section {
   border: 2px solid #70b9b0;
 }
 
-/*--------------------------------------------------------------
-# Our Portfolio
---------------------------------------------------------------*/
 .portfolio {
   padding: 60px 0;
 }
@@ -645,23 +606,6 @@ section {
   top: calc(50% - 30px);
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Our Team
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Contact Us
---------------------------------------------------------------*/
 .contact .contact-about h3 {
   font-size: 36px;
   margin: 0 0 10px 0;
@@ -807,13 +751,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Map
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 #footer {
   background: #073839;
   padding: 30px 0;
