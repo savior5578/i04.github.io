@@ -97,7 +97,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-top: 80px;
 }
 
-
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -234,7 +233,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 
-.mobile-nav > a:after {
+.mobile-nav .drop-down > a:after {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
@@ -242,20 +241,20 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
 }
 
-.mobile-nav > a:after {
+.mobile-nav .active.drop-down > a:after {
   content: "\eaa0";
 }
 
-.mobile-nav > a {
+.mobile-nav .drop-down > a {
   padding-right: 35px;
 }
 
-.mobile-nav ul {
+.mobile-nav .drop-down ul {
   display: none;
   overflow: hidden;
 }
 
-.mobile-nav li {
+.mobile-nav .drop-down li {
   padding-left: 20px;
 }
 
