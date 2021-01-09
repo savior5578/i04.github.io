@@ -579,12 +579,12 @@ body {
   }
   
   .portfolio .portfolio-item .portfolio-info h3 a {
-    color: #073839;
+    color: #000;
     font-weight: bold;
   }
   
   .portfolio .portfolio-item .portfolio-info a i {
-    color: #fff;
+    color: #000;
     font-size: 24px;
     transition: 0.3s;
     margin: 4px;
