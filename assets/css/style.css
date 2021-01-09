@@ -551,12 +551,13 @@ body {
   }
   
   .portfolio .portfolio-item {
-    background: #073839;
+    /*background: #073839;*/
     overflow: hidden;
-    min-height: 100px;
+    min-height: 200px;
     position: relative;
     border-radius: 4px;
     margin: 0 0 30px 0;
+    align: center;
   }
   
   .portfolio .portfolio-item img {
