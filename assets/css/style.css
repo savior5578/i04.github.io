@@ -553,7 +553,7 @@ body {
   .portfolio .portfolio-item {
     background: #073839;
     overflow: hidden;
-    min-height: 200px;
+    min-height: 100px;
     position: relative;
     border-radius: 4px;
     margin: 0 0 30px 0;
