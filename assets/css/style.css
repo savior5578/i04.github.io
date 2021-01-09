@@ -551,7 +551,7 @@ body {
   }
   
   .portfolio .portfolio-item {
-    /*background: #073839;*/
+    background: #073839;
     overflow: hidden;
     min-height: 200px;
     position: relative;
@@ -579,12 +579,12 @@ body {
   }
   
   .portfolio .portfolio-item .portfolio-info h3 a {
-    color: #000;
+    color: #fff;
     font-weight: bold;
   }
   
   .portfolio .portfolio-item .portfolio-info a i {
-    color: #000;
+    color: #fff;
     font-size: 24px;
     transition: 0.3s;
     margin: 4px;
